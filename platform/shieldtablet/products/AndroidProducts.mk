@@ -6,4 +6,5 @@ PRODUCT_MAKEFILES := \
   $(LOCAL_DIR)/wx_un_mo.mk \
   $(LOCAL_DIR)/wx_un_do.mk \
   $(LOCAL_DIR)/wx_diag.mk \
-  $(LOCAL_DIR)/sb_na_wf.mk
+  $(LOCAL_DIR)/sb_na_wf.mk \
+  $(LOCAL_DIR)/omni_shieldtablet.mk
