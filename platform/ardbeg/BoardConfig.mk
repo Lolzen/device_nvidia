@@ -176,3 +176,10 @@ TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
+
+# Kernel
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+TARGET_KERNEL_SOURCE := kernel
+TARGET_KERNEL_CONFIG := tegra12_android_defconfig
+BOARD_KERNEL_CMDLINE := androidboot.hardware=tn8
