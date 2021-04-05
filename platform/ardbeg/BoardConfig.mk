@@ -183,3 +183,6 @@ KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 TARGET_KERNEL_SOURCE := kernel
 TARGET_KERNEL_CONFIG := tegra12_android_defconfig
 BOARD_KERNEL_CMDLINE := androidboot.hardware=tn8
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE := shieldtablet
